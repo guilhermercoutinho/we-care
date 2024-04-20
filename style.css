@@ -40,8 +40,13 @@ header {
 .image-logo {
     width: 568px;
     height: 500px;
-    margin-left: 125px;
+    /* margin-left: 125px; */
     display: inline-block;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 section {
@@ -137,6 +142,10 @@ footer {
 @media screen and (max-width: 1300px) {
     header {
         margin: 44px 0 100px 76px;
+    }
+
+    main {
+        flex-direction: column;
     }
 
     .image-logo {
